@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background-image:url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*header*/
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(90, 23, 23);
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li{
+   margin-left: 19px; 
+}
+
+.header ul li a{
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    border-radius: 25%;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    background: black;
+}
+
+/*acceul*/
+#acceuil{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+
+ section #text{
+    color: rgb(90, 23, 23);
+    font-size: 7vw;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow:7px 5px 5px rgba(255, 255, 255, 0.662);   
+}
+
+/*bouttons*/
+form input {
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5000px;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  form input:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+  }
+ 
+  /*boutton inscrire*/
+  .inscrit{
+    background:none;
+    padding: 0em;
+    height:0px; 
+    position: absolute; 
+    bottom:10%;
+    left:35%;
+ }
+
+ /*boutton votez*/
+ .login{
+    background:none;
+    padding: 0em;
+    height:0px; 
+    position: absolute; 
+    bottom:10%;
+    left:50%;
+ }
+
+/*à propos*/
+#propos{
+    padding: 20px;
+    background-color:rgb(226, 195, 155);
+    min-height: 100vh;
+}
+
+/*titre*/
+#propos h1{
+    font-size:45px;
+    color: rgb(90, 23, 23);
+    margin-bottom: 10px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-size: 60px;
+}
+
+#propos p{
+    font-size: 20px;
+    color:rgb(90, 23, 23);
+}
+
+#candidat{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#candidat h1{
+    font-size:45px;
+    color: rgb(90, 23, 23);
+    margin-bottom: 10px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-size: 60px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin-right: 10px;
+    padding-bottom: 40px;
+    font-family: Arial;
+    background: transparent;
+    margin: 70px 70px;
+    backdrop-filter: blur(10px);
+    background-image: linear-gradient(to right, maroon, rgba(255,0,0,1));
+    border: dashed 5px white;
+
+  }
+
+#res{
+    background-color:rgb(226, 195, 155);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; 
+}
+
+#res h1{
+    font-size:45px;
+    color: rgb(90, 23, 23);
+    margin-bottom: 10px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-size: 60px;
+}
+#piechart{
+    position: relative;
+  top: 50px; 
+  left: 420px;
+}
+
+footer{
+    padding: 20px;
+    background: rgb(90, 23, 23);
+    color:rgb(226, 195, 155) ;
+}
+.sociallogo{
+    text-align: center;
+    padding: 10px;
+}
+.sociallogo a{
+    margin: 7px;
+    color: #111111;
+    position: relative;
+}
+.sociallogo a:hover{
+    color: rgb(226, 195, 155);
+}

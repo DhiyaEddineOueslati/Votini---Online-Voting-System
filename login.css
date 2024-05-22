@@ -1,0 +1,15 @@
+.formcontainer{
+    width: 50%;
+    margin: 0 auto;
+    backdrop-filter: blur(10px)
+}
+
+.code{
+font-size: 3em;
+margin: 0;
+-webkit-text-stroke: 2px red;
+}
+
+.bottom {
+    margin-top:8%;
+}

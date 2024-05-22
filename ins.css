@@ -1,0 +1,106 @@
+body{
+    background-image:url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    }
+
+.registerform h1{
+    color:rgb(90, 23, 23) !important;
+    padding: 10px 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    background-color: rgb(226, 195, 155);
+    }
+
+.registerform{
+    text-align: center;    
+}
+
+.formcontainer{
+    width: 79%;
+    margin: 0 auto;
+    backdrop-filter: blur(10px)
+}
+
+.registerform input{
+    height: 40px;
+    width: 400px;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    color: rgb(90, 23, 23);
+    text-transform: capitalize;
+    font-weight: bold;
+    background: rgb(226, 195, 155);
+    border: none; 
+    position: relative; 
+    }
+
+.form-select{
+    text-align: center !important;
+    background-color: rgb(226, 195, 155) !important;
+    width: 400px !important;
+    position: relative !important; 
+    margin-left: 22px !important;
+    border-radius: 2%!important;
+    display:inline !important;
+    margin: 25px !important;   
+}
+
+select option:checked {
+    background-color:maroon !important;
+  }
+
+  input #image{
+    height: 60px !important;
+    width: 400px;
+    padding: 200px !important;
+    margin: 22% !important;
+    text-align: center;
+    color: rgb(90, 23, 23) !important;
+    text-transform: capitalize !important;
+    font-weight: bold;
+    background: rgb(226, 195, 155)!important;
+    border: none; 
+    position: relative; 
+    }
+
+.inscrire{
+background: transparent;
+width: 200px;
+padding: 1em;
+margin-bottom: 2em;
+border: none;
+border-left: 1px solid rgba(255, 255, 255, 0.3);
+border-top: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 5000px;
+-webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+color: #fff;
+font-family: Montserrat, sans-serif;
+font-weight: 700;
+transition: all 0.2s ease-in-out;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.inscrire:hover {
+background:maroon;
+color:  rgb(226, 195, 155);
+box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.bottom {
+    width:2px !important;
+    background: none;
+    padding: 0em;
+    height: 0px;
+    position: relative;
+   bottom:1px !important;
+    margin-left:80%;
+}
