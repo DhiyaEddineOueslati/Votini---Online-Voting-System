@@ -1,0 +1,44 @@
+.space{
+    width: 250px;
+    min-height: 250vh;
+    background-color: rgb(90, 23, 23) ;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+}
+.space a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 10%;
+    text-decoration: none;
+}
+.space a:hover{
+  background-color: black;
+    color: rgb(226, 195, 155);
+    border-radius: 10%;
+    
+}
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:auto;
+  }
+ .card {
+    width:200px;
+    height:400px;
+    box-shadow: 5px 6px 15px black;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .row .card{
+    margin-left: 270px;
+    position: static;
+  }
+
+ 
